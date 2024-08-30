@@ -11,6 +11,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { ArrowDown, Check } from "lucide-react";
+import AddBanner from '../components/add-banner'
 import Footer from "@/containers/footer";
 const Home = () => {
     const [active, setActive] = React.useState(false)
@@ -18,7 +19,7 @@ const Home = () => {
   return (
     <div>
       <Banner />
-      <div className=" bg-slate-500 bg-opacity-70 mt-[-111px] relative">
+      {/* <div className=" bg-slate-500 bg-opacity-70 mt-[-111px] relative">
         <div className="container py-4 flex items-center justify-between">
           <div className="text-center">
             <h3 className="text-white">
@@ -42,8 +43,9 @@ const Home = () => {
             <span className="inline-block pl-2 text-[#ffba1a]">Now</span>
           </Button>
         </div>
-      </div>
+      </div> */}
 
+<AddBanner/>
       <div className="my-[100px] container">
         <h1 className="text-center text-[60px] leading-[65px] text-slate-500">
           SERVICES TO MAINTAIN A CLEAN & HEALTHY HOME OR BUSINESS
