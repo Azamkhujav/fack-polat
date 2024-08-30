@@ -11,6 +11,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { ArrowDown, Check } from "lucide-react";
+import Footer from "@/containers/footer";
 const Home = () => {
     const [active, setActive] = React.useState(false)
     const handelActive = () => setActive(!active)

@@ -12,7 +12,7 @@ import { Instagram, Smartphone, Twitter, Youtube } from 'lucide-react';
 
 const Header = () => {
   return (
-    <div className="bg-white  fixed z-10 w-full">
+    <div className="bg-white  fixed z-10 w-full  border-b border-dotted border-slate-600">
       <header className="container flex items-center justify-between py-2">
       <div>Logo imagae</div>
       <div>
@@ -26,7 +26,7 @@ const Header = () => {
               <MenubarItem>Commerical</MenubarItem>
               <MenubarItem>Common Questions</MenubarItem>
               <MenubarItem>Memebers</MenubarItem>
-              <MenubarItem>CArrers</MenubarItem>
+              <MenubarItem>Carrers</MenubarItem>
             </MenubarContent>
           </MenubarMenu>
           <MenubarMenu>
