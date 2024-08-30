@@ -1,0 +1,38 @@
+.add-banner {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(20, 63, 108, .7);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 24px 0;
+    gap: 150px;
+
+    p {
+        font-size: 18px;
+        color: white;
+    }
+
+    button {
+        width: 400px;
+        outline: none;
+        border-radius: 24px;
+        color: white !important;
+        font-size: 36px;
+        line-height: 38px;
+        text-transform: inherit;
+        padding: 20px;
+        background-color: rgb(94 115 215 / 61%);
+    }
+
+    a {
+        font-size: 36px;
+        color: white;
+        font-weight: bold;
+
+        &:hover {
+            color: rgba(255, 255, 0, 0.899);
+        }
+    }
+}

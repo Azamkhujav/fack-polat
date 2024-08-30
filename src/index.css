@@ -67,3 +67,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+.tracking-widest{
+text-align: center !important;
+margin: 0 auto !important; 
+}
+
+body{
+  padding-top: 56px;
+}
