@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Banner from "@/containers/banner";
 import React from "react";
+
 import { service, moreService } from "@/db";
 import {
   Card,
@@ -9,7 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Check } from "lucide-react";
 const Home = () => {
     const [active, setActive] = React.useState(false)
     const handelActive = () => setActive(!active)
@@ -87,6 +88,33 @@ const Home = () => {
             </ul>
           </div>
         </div>
+      </div>
+
+      <div className="py-11 bg-[#F3F5F8]">
+      <div className="container">
+        <h2 className="text-center text-4xl mb-4">ABOUT US</h2>
+        <p className="text-2xl text-center mb-5 text-slate-900">USA Clean Master offers professional cleaning services for homes and commercial properties. Since 2003, we have expanded our service portfolio to offer many home services, including carpet cleaning, upholstery cleaning, area rug cleaning, tile & grout, wood floors, air duct cleaning, fire and water damage restoration services, mold remediation in houses, schools, offices and other commercial buildings.</p>
+        <p className="text-sm text-center">Our benefits are a combination of nationwide team of professional technicians with the care and customer service you'd expect from a local provider. Our customers receive service from experienced and knowledgeable technicians utilizing the best techniques in the industry and using the right equipment. With the convenience of scheduling seven days a week, you're sure to find a good time for your cleaning appointment with USA Clean Master - a cleaning provider you can trust.</p>
+        <div className="grid grid-cols-2 grid-rows-1 mt-24">
+          <img src="https://images.pexels.com/photos/3796556/pexels-photo-3796556.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+          <div>
+            <h2 className="text-[80px] leading-[80px] text-slate-800 font-serif mb-4">A COMPANY YOU CAN TRUST
+            </h2>
+            <ul>
+              <li className="text-lg font-sans text-slate-600 flex mb-1 gap-2 items-center"><Check color="#143f6c" /> One stop for all your cleaning, maintenance & restoration needs
+              </li>
+              <li className="text-lg font-sans text-slate-600 flex mb-1 gap-2 items-center"><Check color="#143f6c" /> Free on site price estimate
+              </li>
+              <li className="text-lg font-sans text-slate-600 flex mb-1 gap-2 items-center"><Check color="#143f6c" /> Eco Friendly cleaning alternative
+              </li>
+              <li className="text-lg font-sans text-slate-600 flex mb-1 gap-2 items-center"><Check color="#143f6c" /> Qualified Cleaning Technicians
+              </li>
+              <li className="text-lg font-sans text-slate-600 flex mb-1 gap-2 items-center"><Check color="#143f6c" /> We are dedicated to the complete
+              & total satisfaction of our customers</li>
+            </ul>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   );
