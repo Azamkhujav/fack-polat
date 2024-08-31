@@ -8,13 +8,14 @@ import {
   MenubarShortcut,
   MenubarTrigger,
 } from "@/components/ui/menubar";
+import Logo from '../assets/logo.png'
 import { Instagram, Smartphone, Twitter, Youtube } from 'lucide-react';
 
 const Header = () => {
   return (
-    <div className="bg-white  fixed z-10 w-full  border-b border-dotted border-slate-600">
+    <div className="bg-white  fixed  z-[100] w-full  border-b border-dotted border-slate-600">
       <header className="container flex items-center justify-between py-2">
-      <div>Logo imagae</div>
+      <div>LOGO</div>
       <div>
         <Menubar>
           <MenubarMenu>

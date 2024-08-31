@@ -1,6 +1,7 @@
 import React from "react";
 import { UserPen } from "lucide-react";
 import Image from "../assets/i.jpg";
+import DogGirl from "@/components/donAndGirl";
 const Resource = () => {
   return (
     <div>
@@ -54,11 +55,7 @@ const Resource = () => {
           </h1>
         </div>
       </div>
-      <div className="flex justify-center h-[70px] bg-gradient-to-b from-[#f2f2f2] via-white/40 to-white">
-      </div>
-        <div className="flex justify-center mb-[40px]">
-        <img src={Image} alt="" />
-        </div>
+      <DogGirl/>
     </div>
   );
 };
