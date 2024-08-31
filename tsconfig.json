@@ -1,17 +1,17 @@
 {
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ],
   "compilerOptions": {
+    "module": "NodeNext",
+    "target": "ES2020",
+    "moduleResolution": "NodeNext", // or "node16" or "bundler"
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    // other options...
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
+      "rollup/parseAst": ["node_modules/rollup/dist/parseAst.d.ts"]
+    },
+  },
+  "include": ["src/**/*.ts"], // adjust this according to your project structure
+  "exclude": ["node_modules"]
 }
