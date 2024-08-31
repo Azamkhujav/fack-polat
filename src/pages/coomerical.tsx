@@ -1,8 +1,7 @@
 import DogGirl from "@/components/donAndGirl";
-import { BadgeCheck, Building2, Check, CircleAlert, CircleHelp } from "lucide-react";
+import { BadgeCheck, Building2,  CircleAlert, CircleHelp } from "lucide-react";
 import Image from "../assets/iamge2.png";
-import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
+import * as React from "react";
 import {
   Carousel,
   CarouselContent,

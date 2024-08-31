@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import Image from "../assets/image2.jpg";
 import DogGirl from "../components/donAndGirl";
 import { Button } from "../components/ui/button";

@@ -1,5 +1,4 @@
-import React from "react";
-import Image from '../assets/i.jpg'
+import * as React from "react";
 import Image1 from "../assets/image1.png";
 import DogGirl from "@/components/donAndGirl";
 

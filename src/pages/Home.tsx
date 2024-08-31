@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Banner from "@/containers/banner";
-import React from "react";
+import * as React from "react";
 
 import { service, moreService } from "@/db";
 import {
@@ -12,7 +12,6 @@ import {
 } from "@/components/ui/card";
 import { ArrowDown, Check } from "lucide-react";
 import AddBanner from '../components/add-banner'
-import Footer from "@/containers/footer";
 const Home = () => {
     const [active, setActive] = React.useState(false)
     const handelActive = () => setActive(!active)

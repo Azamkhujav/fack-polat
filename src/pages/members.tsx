@@ -1,6 +1,6 @@
 import DogGirl from "@/components/donAndGirl";
 import { CheckCircle, CircleAlert, Sun } from "lucide-react";
-import React from "react";
+import * as React from "react";
 import Join from "../assets/join.png";
 import Cleaner from '../assets/cleaner.png'
 import { Input } from "@/components/ui/input";

@@ -1,10 +1,9 @@
-import React from 'react'
+import * as React from 'react'
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
-import Image from '@/assets/image.jpg'
 
 import { Link } from 'react-router-dom';
 import { Building2, Paintbrush, ShieldCheck, ShieldPlus, Sofa } from 'lucide-react';

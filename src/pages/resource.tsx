@@ -1,6 +1,5 @@
-import React from "react";
+import * as React from "react";
 import { UserPen } from "lucide-react";
-import Image from "../assets/i.jpg";
 import DogGirl from "@/components/donAndGirl";
 const Resource = () => {
   return (
