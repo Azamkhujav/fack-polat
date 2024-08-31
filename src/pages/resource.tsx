@@ -5,7 +5,7 @@ import DogGirl from "@/components/donAndGirl";
 const Resource = () => {
   return (
     <div>
-      <div className="container pt-[150px]">
+      <div className="container pt-[110px]">
         <div className="flex justify-center items-center flex-col">
           <UserPen width={100} height={100} color="#3598FF" />
           <h1 className="text-slate-400 text-[60px]  font-mono">Glossary</h1>
